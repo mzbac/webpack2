@@ -1,0 +1,22 @@
+{
+  "name": "webpack2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzbac/webpack2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mzbac/webpack2/issues"
+  },
+  "homepage": "https://github.com/mzbac/webpack2#readme",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^2.2.0-rc.0"
+  }
+}
