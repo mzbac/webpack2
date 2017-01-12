@@ -1,12 +1,5 @@
-import React, { PropTypes } from 'react';
+import './index.css';
 
-const App = props => {
-  const {} = props;
-
-  return (
-    <div>App</div>
-  );
-};
-
-App.propTypes = {};
-export default App;
+const image = document.createElement('img');
+image.src = 'http://lorempixel.com/400/400';
+document.body.appendChild(image);
