@@ -1,4 +1,12 @@
-const test = 'aaa';
+import React, { PropTypes } from 'react';
 
-console.log(test);
+const App = props => {
+  const {} = props;
 
+  return (
+    <div>App</div>
+  );
+};
+
+App.propTypes = {};
+export default App;
