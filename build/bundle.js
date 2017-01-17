@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -71,14 +71,34 @@
 /***/ function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"img":"src-___index__img___1wy0w"};
+module.exports = {"img":"index__img__1wy0w"};
 
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "aaa346946f4212ee492182df6ddb57f1.jpg";
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gNzAK/9sAhAAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQyAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wgARCAGQAZADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/2gAIAQEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACAECEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//xAAUEAEAAAAAAAAAAAAAAAAAAACw/9oACAEBAAE/ABxP/8QAFBEBAAAAAAAAAAAAAAAAAAAAkP/aAAgBAgEBPwAcf//EABQRAQAAAAAAAAAAAAAAAAAAAJD/2gAIAQMBAT8AHH//2Q=="
+
+/***/ },
+/* 3 */
+/***/ function(module, exports, __webpack_require__) {
+
 "use strict";
 
+
+var _big = __webpack_require__(1);
+
+var _big2 = _interopRequireDefault(_big);
+
+var _small = __webpack_require__(2);
+
+var _small2 = _interopRequireDefault(_small);
 
 var _index = __webpack_require__(0);
 
@@ -87,8 +107,7 @@ var _index2 = _interopRequireDefault(_index);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var image = document.createElement('img');
-image.src = 'http://lorempixel.com/400/400';
-console.log(_index2.default);
+image.src = _big2.default;
 image.className = _index2.default.img;
 document.body.appendChild(image);
 

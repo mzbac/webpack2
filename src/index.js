@@ -1,7 +1,8 @@
+import bigImage from '../assets/big.jpg';
+import smallImage from '../assets/small.jpg';
 import styles from  './index.css';
 
 const image = document.createElement('img');
-image.src = 'http://lorempixel.com/400/400';
-console.log(styles)
+image.src = bigImage;
 image.className = styles.img;
 document.body.appendChild(image);
